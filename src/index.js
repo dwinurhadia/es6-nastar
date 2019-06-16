@@ -12,13 +12,21 @@
 // }
 // console.log(nama);
 
-function getName() {
-    if (true) {
-        var nama = "adadsa";
-        console.log(nama);
-    } else {
-        console.log(nama);
-    }
-}
+// function getName() {
+//     if (true) {
+//         var nama = "adadsa";
+//         console.log(nama);
+//     } else {
+//         console.log(nama);
+//     }
+// }
 
-getName();
+// getName();
+
+const person = {
+    id: 1,
+    name: 'hilman'
+};
+person.age = 34;
+
+console.log(person);
